@@ -1,0 +1,38 @@
+# =============================================================================
+# DailyFood RAG — Dependências Python
+# =============================================================================
+# Instalar com: pip install -r requirements.txt
+# Python recomendado: >= 3.10
+# =============================================================================
+
+# --- LangChain Core ---
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-openai>=0.2.0
+langchain-chroma>=0.1.4
+langchain-text-splitters>=0.3.0
+
+# --- OpenAI ---
+openai>=1.40.0
+
+# --- Chroma ---
+chromadb>=0.5.0
+
+# --- PDF Processing ---
+pypdf>=4.0.0
+
+# --- Gradio ---
+gradio>=4.44.0
+
+# --- PDF Export ---
+fpdf2>=2.6.0
+
+# --- Utilities ---
+python-dotenv>=1.0.0     # Alternativa ao loader custom (opcional)
+pydantic>=2.0.0          # Validação de dados (dependência do LangChain)
+tiktoken>=0.7.0          # Contagem de tokens OpenAI
+tenacity>=8.0.0          # Retry logic para chamadas de API
+
+# --- Dev / Observabilidade (opcional) ---
+langsmith>=0.1.0         # Tracing LangSmith
