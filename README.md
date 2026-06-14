@@ -45,6 +45,9 @@ DailyFood_RAG/
 ├── ui/
 │   └── gradio_interface.py         # Interface Gradio completa
 │
+├── video/
+│   └── video_demonstration.mp4        # Video de demonstração da RAG
+│
 ├── data/
 │   └── document_sources.py         # Registo de PDFs e tipos de dieta
 │
